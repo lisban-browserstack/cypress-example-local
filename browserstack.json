@@ -1,0 +1,52 @@
+{
+    "auth": {
+        "username": "",
+        "access_key": ""
+    },
+    "browsers": [
+        {
+            "browser": "chrome",
+            "os": "Windows 10",
+            "versions": [
+                "latest",
+                "latest - 1"
+            ]
+        },
+        {
+            "browser": "firefox",
+            "os": "OS X Mojave",
+            "versions": [
+                "latest",
+                "latest - 1"
+            ]
+        },
+        {
+            "browser": "edge",
+            "os": "OS X Catalina",
+            "versions": [
+                "latest"
+            ]
+        }
+    ],
+    "run_settings": {
+        "cypress_config_file": "./cypress.config.js",
+        "cypress_version": "13.latest",
+        "project_name": "Cypress Kitchen Sink Example",
+        "build_name": "Build no: 1",
+        "parallels": 5,
+        "exclude": [
+            "some-folder/test.js",
+            "static/*.pdf"
+        ],
+        "npm_dependencies": {},
+        "package_config_options": {},
+        "headless": true
+    },
+    "connection_settings": {
+        "local": true,
+        "local_identifier": "My_Sample_Tutorial",
+        "local_mode": "always-on",
+        "local_config_file": null
+    },
+    "disable_usage_reporting": false
+}
